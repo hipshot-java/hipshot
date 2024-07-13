@@ -21,12 +21,11 @@ Hipshot will be published to Maven central once the API has stabilized.
 
 ```java
 public static void main(String[] args) {
-    Router router = new Router();
-    router.get("/hello/{name}", (request, response) -> {
-        String name = request.pathParam("name");
-        response.body("Hello, " + name).send();
-    });
-    WebServer.create(router).start();
+    WebServer.create((request, response) -> {
+        response.header("Content-Type", "text/plain")
+            .body("Hello from Hipshot!")
+            .send();
+    }).start();
 }
 ```
 
