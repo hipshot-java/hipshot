@@ -17,7 +17,7 @@ There is a fallback that uses `java.nio` packages for portability in development
 
 Hipshot will be published to Maven central once the API has stabilized.
 
-## Dynamic Hello World Example
+## Hello World Example
 
 ```java
 public static void main(String[] args) {
