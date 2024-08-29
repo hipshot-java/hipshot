@@ -27,6 +27,10 @@ public static void main(String[] args) {
 }
 ```
 
+## Benchmarks
+
+![IMG_2303](https://github.com/user-attachments/assets/a90ef8e9-5ed9-49d3-acf6-7e73083ae355)
+
 ## License
 
 MIT. Have fun and make cool things!
